@@ -1,0 +1,90 @@
+.calculadora {
+  width: 100%;
+  max-width: 450px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: black;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+}
+
+.calculadora h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.campo {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.campo label {
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.campo input,
+.campo select {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.campo input:focus,
+.campo select:focus {
+  outline: none;
+  border-color: #333;
+}
+
+.botoes {
+  display: flex;
+  gap: 10px;
+  margin-top: 25px;
+}
+
+.botoes button {
+  flex: 1;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-calcular {
+  background-color: #222;
+  color: white;
+}
+
+.btn-calcular:hover {
+  background-color: #444;
+}
+
+.btn-limpar {
+  background-color: #ddd;
+  color: #222;
+}
+
+.btn-limpar:hover {
+  background-color: #bbb;
+}
+
+.resultado {
+  margin-top: 25px;
+  padding: 20px;
+  text-align: center;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+}
+
+.resultado h2 {
+  margin-bottom: 10px;
+}
+
+.resultado p {
+  font-size: 24px;
+  font-weight: bold;
+}
